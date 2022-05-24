@@ -14,7 +14,7 @@ export default () => {
     <StylesProvider generateClassName={generateClassName}>
       <BrowserRouter>
         <Switch>
-          <Route exact path="pricing" component={Pricing} />
+          <Route exact path="/pricing" component={Pricing} />
           <Route path="/" component={Landing} />
         </Switch>
       </BrowserRouter>
